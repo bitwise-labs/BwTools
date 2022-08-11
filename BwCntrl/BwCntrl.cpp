@@ -1,9 +1,9 @@
-// Bw.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// BwCntrl.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 
 /*
- * bw.c
+ * BwCntrl.c
  *
  *  Created on: Aug 23 2016
  *      Author: Audrey Waschura
@@ -129,7 +129,7 @@ int main(int argc, char* argv[])
 
 	if (helpFlag)
 	{
-		printf("Bw, version 2.0, (c) BitWise Laboratories, Inc.\n");
+		printf("BwCntrl, version 2.0, (c) BitWise Laboratories, Inc.\n");
 		printf("Purpose:  Sends automation query or command to BitWise Laboratories\n");
 		printf("          device and displays response.\n");
 		printf("Usage:    Bw [options] [query_or_command]\n");

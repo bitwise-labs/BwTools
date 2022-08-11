@@ -5,7 +5,7 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BwToolsLib", "BwToolsLib\BwToolsLib.vcxproj", "{7600A8ED-4C2B-4334-96C4-042C4E74E892}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bw", "Bw\Bw.vcxproj", "{85CE7CB0-1246-4EE5-A38D-30DB57A02814}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BwCntrl", "BwCntrl\BwCntrl.vcxproj", "{85CE7CB0-1246-4EE5-A38D-30DB57A02814}"
 	ProjectSection(ProjectDependencies) = postProject
 		{7600A8ED-4C2B-4334-96C4-042C4E74E892} = {7600A8ED-4C2B-4334-96C4-042C4E74E892}
 	EndProjectSection
