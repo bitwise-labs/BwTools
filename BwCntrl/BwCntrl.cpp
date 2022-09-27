@@ -129,7 +129,7 @@ int main(int argc, char* argv[])
 
 	if (helpFlag)
 	{
-		printf("BwCntrl, version 2.0, (c) BitWise Laboratories, Inc.\n");
+		printf("BwCntrl, version 2.1, (c) BitWise Laboratories, Inc.\n");
 		printf("Purpose:  Sends automation query or command to BitWise Laboratories\n");
 		printf("          device and displays response.\n");
 		printf("Usage:    Bw [options] [query_or_command]\n");
