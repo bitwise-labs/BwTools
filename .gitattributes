@@ -1,0 +1,27 @@
+# Line endings: store text files with LF in the repository and check them out
+# with the platform's native line ending (CRLF on Windows, LF on Linux).
+# Git detects binary files automatically; common ones are listed explicitly.
+* text=auto
+
+# Binary files
+*.png  binary
+*.PNG  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.bmp  binary
+*.pdf  binary
+*.docx binary
+*.xlsx binary
+*.zip  binary
+*.gz   binary
+*.jar  binary
+*.bin  binary
+*.exe  binary
+*.dll  binary
+
+# Visual Studio project files: always CRLF
+*.sln      text eol=crlf
+*.vcxproj  text eol=crlf
+*.filters  text eol=crlf
